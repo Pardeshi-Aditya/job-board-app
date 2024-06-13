@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { View, ScrollView, SafeAreaView } from "react-native";
+import { View, ScrollView, SafeAreaView, Text } from "react-native";
 import { Stack, useRouter } from 'expo-router'
 import { COLORS, icons, images, SIZES } from '../constants'
 
@@ -17,12 +17,12 @@ const Home = () => {
                 headerStyle : { backgroundColor : COLORS.lightWhite, Colors: '#000'},
                 headerShadowVisible : false,
                 headerLeft : () =>{
-                    return <ScreenHeaderBtn iconURL={icons.menu} dimension='60%'/>
+                    return <ScreenHeaderBtn iconUrl={icons.menu} dimension='60%'/>
                 },
                 headerRight : () =>{
-                    return <ScreenHeaderBtn iconURL={images.profile} dimension='100%'/>
+                    return <ScreenHeaderBtn iconUrl={images.profile} dimension='100%'/>
                 },
-                headerTitle : 'header here',
+                headerTitle : 'Job Board',
 
             }}
             />
