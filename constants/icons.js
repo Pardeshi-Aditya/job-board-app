@@ -1,6 +1,6 @@
 import heart from "../assets/icons/heart.png";
 import menu from "/Users/sumitjain/Desktop/Aditya/react-native-app/job-board-app/assets/icons/menu.png";
-import search from "../assets/icons/search.png";
+import search from "/Users/sumitjain/Desktop/Aditya/react-native-app/job-board-app/assets/icons/search.png";
 import filter from "../assets/icons/filter.png";
 import left from "../assets/icons/left.png";
 import heartOutline from "../assets/icons/heart-ol.png";
