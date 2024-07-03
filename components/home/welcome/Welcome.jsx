@@ -12,7 +12,7 @@ import { icons, SIZES } from "../../../constants";
 
 import styles from "./welcome.style";
 
-const jobTypes = ["Full-time", "Part-time", "Contractor"];
+const jobTypes = ["Quick Chat", "No plan for the evening", "Find a friend"];
 
 const Welcome = () => {
   const router = useRouter();
@@ -22,7 +22,7 @@ const Welcome = () => {
     <View>
       <View style={styles.container}>
         <Text style={styles.userName}>Hello Aditya</Text>
-        <Text style={styles.welcomeMessage}>Find your perfect Job.</Text>
+        <Text style={styles.welcomeMessage}>Let's find you a mate.</Text>
       </View>
 
       <View style={styles.searchContainer}>
@@ -45,6 +45,7 @@ const Welcome = () => {
 
       <View style={styles.tabsContainer}>
         <FlatList
+          className='mb-3'
           data={jobTypes}
           renderItem={({ item }) => (
             <TouchableOpacity

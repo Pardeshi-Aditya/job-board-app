@@ -22,7 +22,6 @@ const Layout = () => {
 
     return (
         <Stack onLayout={onLayoutRootView}/>
-        // <Stack/>
     )
 };
 

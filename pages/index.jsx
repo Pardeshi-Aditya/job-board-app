@@ -1,20 +1,3 @@
-// import { SafeAreaView } from "react-native";
-// import { COLORS } from "../constants";
-// import LoginScreen from "../pages/LoginScreen";
-// import { Router } from 'expo-router';
-
-// const Home = () => {
-//   return (
-//     <Router/>
-//     // <SafeAreaView style={{ flex: 1, backgroundColor: COLORS.lightWhite }}>
-//     //   <LoginScreen />
-//     // </SafeAreaView>
-//   );  
-// };
-
-// export default Home;
-
-
 import React, { useState } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet, KeyboardAvoidingView, Platform } from 'react-native';
 import { useRouter } from 'expo-router';
@@ -36,7 +19,7 @@ const LoginScreen = () => {
       style={styles.container}
     >
       <View style={styles.inner}>
-        <Text style={styles.logo}>Hello, Mate!</Text>
+        <Text style={styles.logo}>Your ame</Text>
         <View style={styles.inputView}>
           <TextInput
             style={styles.inputText}

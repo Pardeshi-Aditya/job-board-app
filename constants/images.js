@@ -1,4 +1,4 @@
-import profile from "/Users/sumitjain/Desktop/Aditya/react-native-app/job-board-app/assets/images/kemal.jpg";
+import profile from "/home/names_aditya/Desktop/thenativeapp/assets/images/kemal.jpg";
 
 export default {
   profile,
